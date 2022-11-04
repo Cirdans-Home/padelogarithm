@@ -1,17 +1,17 @@
-# Practical error estimates for computing the matrix logarithm by Padé-type approximants
+# Theoretical error estimates for computing the matrix logarithm by Pade-type approximants
 
 This is the companion repository to the paper
-- L. Aceto, F. Durastante. Practical error estimates for computing the matrix logarithm by Padé-type approximants.
+- L. Aceto, F. Durastante. Theoretical error estimates for computing the matrix logarithm by Pade-type approximants.
 
-**Abstract** In this article we focus on the computation of the matrix logarithm by a Gauss-Legendre rule. This leads to a Padé-type approximant. 
-Results on Padé approximants to Gauss hypergeometric functions help in finding the corresponding results to the logarithm. 
+**Abstract** In this article we focus on the computation of the matrix logarithm by a Gauss-Legendre rule. This leads to a Padé-type approximant.
+Results on Padé approximants to Gauss hypergeometric functions help in finding the corresponding results to the logarithm.
 
 ## Obtain the code
 
 The code can be obtained by doing
 ```
 git clone https://github.com/Cirdans-Home/padelogarithm.git
-``` 
+```
 It use code from the [Chebfun project](https://www.chebfun.org/), that is included here as a [Git submodule](https://www.git-scm.com/book/en/v2/Git-Tools-Submodules).
 You can install Chebfun on your machine by doing
 ```

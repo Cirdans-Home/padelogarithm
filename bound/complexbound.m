@@ -1,4 +1,6 @@
 %% Figures for the complex bound
+% Level sets in log10(.) scale of the absolute value of the bound for
+% different values of k.
 
 bound = @(z,k) arrayfun(@(t) 2*pi*abs(((1 - sqrt(1+t))...
     ./(1+sqrt(1+t))).^(2*k+1)),z);

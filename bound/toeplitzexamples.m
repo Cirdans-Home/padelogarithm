@@ -1,4 +1,5 @@
 %% Toeplitz Matrix Example
+% Example using the Toeplitz "Daisy" Matrix.
 
 clear; clc; close all;
 
@@ -49,7 +50,6 @@ for k=1:15
     boundmin = bound(lmin,k);
     boundmax = bound(lmax,k);
     boundval(k) = (1+sqrt(2))*max(boundmin,boundmax);
-    boundval2(k) = bound();
 end
 
 figure(2)

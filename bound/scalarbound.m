@@ -1,4 +1,6 @@
 %% Scalar bound for the Legendre based approximant
+% Depiction of the scalar bound for the Padé approximation of the
+% Logarithm.
 
 clear; clc; close all;
 
