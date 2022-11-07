@@ -32,3 +32,19 @@ you can check out the appropriate commit by doing
 git submodule init
 ```
 and then add to your Matlab path the version in the cloned repository folder.
+
+## MATLAB's logm
+
+The folder `scalingandsquaring` contains a copy **as is** of MATLAB's `logm`
+function (Higham & Relton) with an added print statement that tells the
+user what choices have been made for the number of scaling and squaring 
+step and the number of terms in the diagonal Padé expansion. This has been
+used to make the comparison reported in the paper.
+
+For information about that function see
+- A. H. Al-Mohy and Nicholas J. Higham, Improved inverse scaling and
+       squaring algorithms for the matrix logarithm, SIAM J. Sci. Comput.,
+       34(4), (2012), pp. C153-C169.
+-   A. H. Al-Mohy, Nicholas J. Higham and Samuel D. Relton, Computing the
+       Frechet derivative of the matrix logarithm and estimating the
+       condition number, SIAM J. Sci. Comput., 35(4), (2013), C394-C410.
