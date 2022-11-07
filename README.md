@@ -1,10 +1,18 @@
-# Theoretical error estimates for computing the matrix logarithm by Pade-type approximants
+# Theoretical error estimates for computing the matrix logarithm by Padé-type approximants
 
 This is the companion repository to the paper
 - L. Aceto, F. Durastante. Theoretical error estimates for computing the matrix logarithm by Pade-type approximants.
 
-**Abstract** In this article we focus on the computation of the matrix logarithm by a Gauss-Legendre rule. This leads to a Padé-type approximant.
-Results on Padé approximants to Gauss hypergeometric functions help in finding the corresponding results to the logarithm.
+**Abstract** In this article, we focus on the error that is committed when computing
+the matrix logarithm using the Gauss–Legendre quadrature rules. These formulas can be
+interpreted as Pade approximants of a suitable Gauss hypergeometric function.
+Empirical observation tells us that the convergence of these quadratures becomes slow
+when the matrix is not close to the matrix identity, thus suggesting the usage of
+an inverse scaling and squaring approach for obtaining a matrix with this property.
+The novelty of this work is the introduction of error estimates that can be used to
+select *a priori* both the number of Legendre points needed to obtain a given accuracy
+and the number of inverse scaling and squaring to be performed. We include
+some numerical experiments to show the reliability of the estimates introduced.
 
 ## Obtain the code
 
